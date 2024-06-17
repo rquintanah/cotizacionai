@@ -1,0 +1,60 @@
+# Excluir la carpeta del entorno virtual
+venv/
+ENV/
+env/
+
+# Excluir el archivo de configuración de entorno
+.env
+
+# Excluir archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Excluir archivos de logs
+*.log
+
+# Excluir archivos de base de datos de SQLite
+*.sqlite3
+
+# Excluir archivos de configuración del editor y el sistema operativo
+.vscode/
+.idea/
+*.swp
+*~
+
+# Excluir archivos creados por paquetes de distribución
+dist/
+build/
+*.egg-info/
+
+# Excluir archivos de test coverage
+.coverage
+.tox/
+.nox/
+
+# Excluir archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Excluir archivos de distribución de ruedas
+*.whl
+
+# Excluir archivos de configuración de Docker
+Dockerfile
+docker-compose.yml
+*.env.docker
+
+# Excluir archivos de configuración de Anaconda
+*.conda
+*.condarc
+
+# Excluir archivos temporales y de caché
+*.tmp
+*.temp
+.cache/
+*.bak
+
+# Excluir otros archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
